@@ -24,7 +24,7 @@ RC(5,0)   RC(5,1) RC(5,2) RC(5,3) _RC(5,4) _RC(5,5) _RC(5,6) _RC(5,7) _RC(5,8) _
         transform = <&matrix_transform_0>;
 
         keys =    ROWF0_FIXED 
-                , ROW1_FIEXD , ROW1_BS_2U
+                , ROW1_FIXED , ROW1_BS_2U
                 , ROW2_FIXED , ROW2_ISO
                 , ROW3_ISO   , ROW3_FIXED , ROW2_ISO //Enter
                 , ROW3_ISO  , ROW3_FIXED , ROW3_RSFT_275U, ROW3_FIXED2
