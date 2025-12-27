@@ -37,6 +37,3 @@
                 , SPC_7U , ROW5_FIXED;
     };
 };
-#define ROW5_FIXED    <&key_physical_attrs 100 100 1525  550       0     0     0> \
-                    , <&key_physical_attrs 100 100 1625  550       0     0     0> \
-                    , <&key_physical_attrs 100 100 1725  550       0     0     0> 
