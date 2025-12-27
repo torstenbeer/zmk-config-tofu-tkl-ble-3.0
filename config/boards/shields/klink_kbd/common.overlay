@@ -308,6 +308,6 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
                 , ROW1_FIXED , ROW1_ANSI
                 , ROW2_FIXED , ROW2_ANSI //Enter
                 , ROW3_ISO  , ROW3_FIXED , ROW3_RSFT_175U, ROW3_FIXED2
-                , SPC_625U, ROW4_FIXED;
+                , SPC_7U, ROW4_FIXED;
     };
 };
