@@ -18,6 +18,13 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
         >;
     };
 
+// Used layout for ISO TKL Keyboad
+
+/ {
+    chosen {
+        zmk,physical-layout = &layout0;
+    };
+
     layout0: layout0 {
         compatible = "zmk,physical-layout";
         display-name = "ISO(7U)_BS(2U)_RSFT(2.75U)";
@@ -29,6 +36,7 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
                 , ROW3_ISO  , ROW3_FIXED , ROW3_RSFT_275U, ROW3_FIXED2
                 , SPC_7U, ROW4_FIXED;
     };
+};
 
     matrix_transform_1: matrix_transform_1 {
         compatible = "zmk,matrix-transform";
