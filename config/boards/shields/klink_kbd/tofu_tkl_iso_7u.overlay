@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 #include "key_macros.overlay"
+#include "common.overlay"
 
 #define _RC(x, y) 0
 #define N(x) (89-x)
