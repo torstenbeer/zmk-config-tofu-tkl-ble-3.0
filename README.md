@@ -1,9 +1,9 @@
 # zmk-config-tofu-tkl-3.0
 
-# ZMK Studio
+## ZMK Studio
 
 https://zmk.studio/
 
-# Keycodes
+## Keycodes
 
 https://zmk.dev/docs/keymaps/list-of-keycodes
