@@ -4,6 +4,10 @@
 
 https://zmk.studio/
 
-## Keycodes
+## ZMK Keycodes
 
 https://zmk.dev/docs/keymaps/list-of-keycodes
+
+## ZMK Locales
+
+https://github.com/joelspadin/zmk-locales
