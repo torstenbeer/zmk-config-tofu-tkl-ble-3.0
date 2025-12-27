@@ -291,4 +291,4 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
 
 #define ROW4_FIXED    <&key_physical_attrs 100 100 1525  550       0     0     0> \
                     , <&key_physical_attrs 100 100 1625  550       0     0     0> \
-                    , <&key_physical_attrs 100 100 1725  550       0     0     0> \
+                    , <&key_physical_attrs 100 100 1725  550       0     0     0>
