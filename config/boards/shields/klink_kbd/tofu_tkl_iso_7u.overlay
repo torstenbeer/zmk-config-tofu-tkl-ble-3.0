@@ -150,22 +150,6 @@
 
 #define ROW1_ISO      <&key_physical_attrs 125 200 1375  250       0     0     0> \
 
-#define ROW2_FIXED    <&key_physical_attrs 100 100 1525  250       0     0     0> \
-                    , <&key_physical_attrs 100 100 1625  250       0     0     0> \
-                    , <&key_physical_attrs 100 100 1725  250       0     0     0> \
-                    , <&key_physical_attrs 175 100    0  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  175  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  275  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  375  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  475  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  575  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  675  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  775  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  875  350       0     0     0> \
-                    , <&key_physical_attrs 100 100  975  350       0     0     0> \
-                    , <&key_physical_attrs 100 100 1075  350       0     0     0> \
-                    , <&key_physical_attrs 100 100 1175  350       0     0     0> \
-
 #define ROW3_CAPS_175U \
                     <&key_physical_attrs 175 100   0 450 0 0 0> /* Caps Lock 1.75U */ \
 
@@ -248,4 +232,4 @@
 
 #define ROW5_FIXED    <&key_physical_attrs 100 100 1525  550       0     0     0> \
                     , <&key_physical_attrs 100 100 1625  550       0     0     0> \
-                    , <&key_physical_attrs 100 100 1725  550       0     0     0> \
+                    , <&key_physical_attrs 100 100 1725  550       0     0     0>
