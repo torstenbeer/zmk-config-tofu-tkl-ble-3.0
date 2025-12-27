@@ -40,22 +40,11 @@
         transform = <&matrix_transform_0>;
 
         keys = 
-            /* Reihe 0: ESC, F1-F12, Druck, Rollen, Pause */
             ROWF0_FIXED, 
-        
-            /* Reihe 1: ^,1-0,ß,´, Backspace(2U), Einfg, Pos1, Bild↑ */
             ROW0_FIXED, ROW0_BS_2U, ROW0_FIXED2, 
-        
-            /* Reihe 2: Tab(1.5U), q-ü,+, Enter(iso), Entf, Ende, Bild↓ */
             ROW1_TAB_15U, ROW1_FIXED, ROW1_ENTER_ISO, ROW1_FIXED2,
-        
-            /* Reihe 3: Caps Lock(1.75u), a-ä, #, Enter(iso) */
             ROW2_CAPS_175U, ROW2_FIXED, ROW2_ENTER_ISO, 
-        
-            /* Reihe 4: ShiftL(2.25u), y-m, ',', '.', '-', ShiftR(2.25u), arrow up */
             ROW3_LSHIFT_225U, ROW3_FIXED, ROW3_RSHIFT_225U, ROW3_ARROW_UP, 
-        
-            /* Reihe 5: Strg (1.5u), Win, AltL(1.5u), Space(7U), AltGr(1.5U), Win, Strg(1.5u), Pfeile */
             ROW4_LCTRL_15U, ROW4_LALT_15U, SPC_7U, ROW4_RALT_15U, ROW4_RCTRL_15U, ROW4_ARROWS;
     };
 };
