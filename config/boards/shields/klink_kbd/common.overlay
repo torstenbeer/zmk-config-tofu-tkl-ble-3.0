@@ -292,22 +292,3 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
 #define ROW4_FIXED    <&key_physical_attrs 100 100 1525  550       0     0     0> \
                     , <&key_physical_attrs 100 100 1625  550       0     0     0> \
                     , <&key_physical_attrs 100 100 1725  550       0     0     0> \
-
-
-// Base Layout with all keys in matrix.
-/ {
-    chosen {
-        zmk,physical-layout = &layout_all;
-    };
-    layout_all: layout_all {
-        compatible = "zmk,physical-layout";
-        display-name = "ALL_KEYS";
-        transform = <&matrix_transform_all>;
-
-        keys =    ROWF0_FIXED , ROW0_BS_1U
-                , ROW1_FIXED , ROW1_ANSI
-                , ROW2_FIXED , ROW2_ANSI //Enter
-                , ROW3_ISO  , ROW3_FIXED , ROW3_RSFT_175U, ROW3_FIXED2
-                , SPC_7U, ROW4_FIXED;
-    };
-};
