@@ -36,7 +36,7 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
                 , ROW3_ISO  , ROW3_FIXED , ROW3_RSFT_275U, ROW3_FIXED2
                 , SPC_7U, ROW4_FIXED;
     };
-};
+}
 
     matrix_transform_1: matrix_transform_1 {
         compatible = "zmk,matrix-transform";
@@ -173,4 +173,4 @@ RC(5,0)   RC(5,1)   RC(5,2)                      RC(5,5)                        
                 , <79  80  81       82        N(0)  83  84  85      86 87 88>;
         };
     };
-}
+};
