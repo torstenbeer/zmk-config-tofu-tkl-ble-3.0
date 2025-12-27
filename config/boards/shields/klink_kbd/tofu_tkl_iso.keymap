@@ -40,7 +40,7 @@
         layer7 { status = "reserved"; };
     };
 
-    behaviours {
+    behaviors {
         trans: transparent { display-name = "_Trans"; };
         none: none { display-name = "Key(None)"; };
         mo: momentary_layer { display-name = "Layer Momentary"; };
