@@ -21,17 +21,7 @@
             >;
         };
 
-        layer1 {
-            bindings = <
-    /* Row 1 */ &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    /* Row 2 */ &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    /* Row 3 */ &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-    /* Row 4 */ &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp C_PREV &kp C_PP &trans
-    /* Row 5 */ &trans &trans &trans &trans &trans &trans &trans &trans &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &trans &trans &trans
-    /* Row 6 */ &trans &trans &trans &trans &trans &trans &trans &trans
-            >;
-        };
-
+        layer1 { status = "reserved"; };
         layer2 { status = "reserved"; };
         layer3 { status = "reserved"; };
         layer4 { status = "reserved"; };
