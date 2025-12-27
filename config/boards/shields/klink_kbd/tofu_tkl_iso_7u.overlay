@@ -39,8 +39,7 @@
         display-name = "ISO(7U)_BS(2U)_RSFT(2.75U)";
         transform = <&matrix_transform_0>;
 
-        keys = 
-                  ROWF0_FIXED
+        keys =    ROWF0_FIXED
                 , ROW1_FIXED_ISO_BS_2U 
                 , ROW2_TAB_15U, ROW2_ENTER_ISO, ROW2_FIXED2
                 , ROW3_CAPS_175U, ROW3_FIXED, ROW3_ENTER_ISO
@@ -82,49 +81,46 @@
                     , <&key_physical_attrs 100 100 1200  150       0     0     0> \
 
 #define ROW1_FIXED_ISO_BS_2U \
-                    <&key_physical_attrs 100 100    0    250       0     0     	0> /* ^ */ \
-                    , <&key_physical_attrs 100 100  100  250       0     0     	0> /* 1 */ \
-                    , <&key_physical_attrs 100 100  200  250       0     0     	0> /* 2 */ \
-                    , <&key_physical_attrs 100 100  300  250       0     0     	0> /* 3 */ \
-                    , <&key_physical_attrs 100 100  400  250       0     0     	0>/* 4 */ \
-                    , <&key_physical_attrs 100 100  500  250       0     0     	0> /* 5 */ \
-                    , <&key_physical_attrs 100 100  600  250       0     0     	0> /* 6 */ \
-                    , <&key_physical_attrs 100 100  700  250       0     0     	0>/* 7 */ \
-                    , <&key_physical_attrs 100 100  800  250       0     0     	0> /* 8 */ \
-                    , <&key_physical_attrs 100 100  900  250       0     0     	0> /* 9 */ \
-                    , <&key_physical_attrs 100 100 1000  250       0     0     	0> /* 0 */ \
-                    , <&key_physical_attrs 100 100 1100  250       0     0     	0> /* ß */ \
-                    , <&key_physical_attrs 100 100 1200  250       0     0     	0> /* ´ */ \
-                    , <&key_physical_attrs 200 100 1300  250       0     0     	0> /* Backspace 2U */ \
-                    , <&key_physical_attrs 100 100 1500  250       0     0     	0> /* Einfg */ \
-                    , <&key_physical_attrs 100 100 1600  250       0     0     	0> /* Pos1 */ \
-                    , <&key_physical_attrs 100 100 1700  250       0     0     	0> /* Bild↑ */ \
+                    <&key_physical_attrs 100 100    0    250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  100  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  200  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  300  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  400  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  500  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  600  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  700  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  800  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100  900  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1000  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1100  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1200  250       0     0     	0> \
+                    , <&key_physical_attrs 200 100 1300  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1500  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1600  250       0     0     	0> \
+                    , <&key_physical_attrs 100 100 1700  250       0     0     	0> \
 
 #define ROW0_BS_2U    <&key_physical_attrs 200 100 1300  150       0     0     0> \
 
 #define ROW2_TAB_15U  <&key_physical_attrs 150 100   0   350       0     0     0> \
 
-#define ROW2_FIXED \
-                      <&key_physical_attrs 100 100 150 350 0 0 0> /* Q */ \
-                    , <&key_physical_attrs 100 100 250 350 0 0 0> /* W */ \
-                    , <&key_physical_attrs 100 100 350 350 0 0 0> /* E */ \
-                    , <&key_physical_attrs 100 100 450 350 0 0 0> /* R */ \
-                    , <&key_physical_attrs 100 100 550 350 0 0 0> /* T */ \
-                    , <&key_physical_attrs 100 100 650 350 0 0 0> /* Z */ \
-                    , <&key_physical_attrs 100 100 750 350 0 0 0> /* U */ \
-                    , <&key_physical_attrs 100 100 850 350 0 0 0> /* I */ \
-                    , <&key_physical_attrs 100 100 950 350 0 0 0> /* O */ \
-                    , <&key_physical_attrs 100 100 1050 350 0 0 0> /* P */ \
-                    , <&key_physical_attrs 100 100 1150 350 0 0 0> /* Ü */ \
-                    , <&key_physical_attrs 100 100 1250 350 0 0 0> /* + */ \
+#define ROW2_FIXED    <&key_physical_attrs 100 100 150 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 250 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 350 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 450 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 550 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 650 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 750 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 850 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 950 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 1050 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 1150 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 1250 350 0 0 0> \
 
-#define ROW2_ENTER_ISO \
-                    <&key_physical_attrs 150 200 1350 350 0 0 0> /* ISO Enter 1,5U breit, 2 Reihen hoch */ \
+#define ROW2_ENTER_ISO  <&key_physical_attrs 150 200 1350 350 0 0 0> \
 
-#define ROW2_FIXED2 \
-                    <&key_physical_attrs 100 100 1500 350 0 0 0> /* Entf */ \
-                    , <&key_physical_attrs 100 100 1600 350 0 0 0> /* Ende */ \
-                    , <&key_physical_attrs 100 100 1700 350 0 0 0> /* Bild↓ */ \
+#define ROW2_FIXED2   <&key_physical_attrs 100 100 1500 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 1600 350 0 0 0> \
+                    , <&key_physical_attrs 100 100 1700 350 0 0 0> \
 
 #define ROW0_BS_1U    <&key_physical_attrs 100 100 1300  150       0     0     0> \
                     , <&key_physical_attrs 100 100 1400  150       0     0     0> \
@@ -150,25 +146,22 @@
 
 #define ROW1_ISO      <&key_physical_attrs 125 200 1375  250       0     0     0> \
 
-#define ROW3_CAPS_175U \
-                    <&key_physical_attrs 175 100   0 450 0 0 0> /* Caps Lock 1.75U */ \
+#define ROW3_CAPS_175U <&key_physical_attrs 175 100   0 450 0 0 0> \
 
-#define ROW3_FIXED \
-                    <&key_physical_attrs 100 100 175 450 0 0 0> /* A */ \
-                    , <&key_physical_attrs 100 100 275 450 0 0 0> /* S */ \
-                    , <&key_physical_attrs 100 100 375 450 0 0 0> /* D */ \
-                    , <&key_physical_attrs 100 100 475 450 0 0 0> /* F */ \
-                    , <&key_physical_attrs 100 100 575 450 0 0 0> /* G */ \
-                    , <&key_physical_attrs 100 100 675 450 0 0 0> /* H */ \
-                    , <&key_physical_attrs 100 100 775 450 0 0 0> /* J */ \
-                    , <&key_physical_attrs 100 100 875 450 0 0 0> /* K */ \
-                    , <&key_physical_attrs 100 100 975 450 0 0 0> /* L */ \
-                    , <&key_physical_attrs 100 100 1075 450 0 0 0> /* Ö */ \
-                    , <&key_physical_attrs 100 100 1175 450 0 0 0> /* Ä */ \
-                    , <&key_physical_attrs 100 100 1275 450 0 0 0> /* # */ \
+#define ROW3_FIXED    <&key_physical_attrs 100 100 175 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 275 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 375 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 475 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 575 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 675 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 775 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 875 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 975 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 1075 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 1175 450 0 0 0> \
+                    , <&key_physical_attrs 100 100 1275 450 0 0 0> \
 
-#define ROW3_ENTER_ISO \
-                    <&key_physical_attrs 125 200 1350 450 0 0 0> /* ISO Enter unten, 1,25U breit */ \
+#define ROW3_ENTER_ISO <&key_physical_attrs 125 200 1350 450 0 0 0> \
 
 #define ROW2_ANSI     <&key_physical_attrs 225 100 1275  350       0     0     0> \
 
@@ -186,26 +179,22 @@
 
 #define ROW3_FIXED2      <&key_physical_attrs 100 100 1625  450       0     0     0> \
 
-#define ROW4_LSHIFT_225U \
-                        <&key_physical_attrs 225 100   0 650 0 0 0> /* Linker Shift 2.25U */ \
+#define ROW4_LSHIFT_225U <&key_physical_attrs 225 100   0 650 0 0 0> \
 
-#define ROW4_FIXED \
-                        <&key_physical_attrs 100 100 225 650 0 0 0> /* Y */ \
-                      , <&key_physical_attrs 100 100 325 650 0 0 0> /* X */ \
-                      , <&key_physical_attrs 100 100 425 650 0 0 0> /* C */ \
-                      , <&key_physical_attrs 100 100 525 650 0 0 0> /* V */ \
-                      , <&key_physical_attrs 100 100 625 650 0 0 0> /* B */ \
-                      , <&key_physical_attrs 100 100 725 650 0 0 0> /* N */ \
-                      , <&key_physical_attrs 100 100 825 650 0 0 0> /* M */ \
-                      , <&key_physical_attrs 100 100 925 650 0 0 0> /* , */ \
-                      , <&key_physical_attrs 100 100 1025 650 0 0 0> /* . */ \
-                      , <&key_physical_attrs 100 100 1125 650 0 0 0> /* - */ \
+#define ROW4_FIXED      <&key_physical_attrs 100 100 225 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 325 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 425 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 525 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 625 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 725 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 825 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 925 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 1025 650 0 0 0> \
+                      , <&key_physical_attrs 100 100 1125 650 0 0 0> \
 
-#define ROW4_RSHIFT_225U \
-                        <&key_physical_attrs 225 100 1225 650 0 0 0> /* Rechter Shift 2.25U */ \
+#define ROW4_RSHIFT_225U     <&key_physical_attrs 225 100 1225 650 0 0 0> \
 
-#define ROW4_ARROW_UP \
-                        <&key_physical_attrs 100 100 1450 650 0 0 0> /* Pfeil nach oben */ \
+#define ROW4_ARROW_UP     	<&key_physical_attrs 100 100 1450 650 0 0 0> \
 
 #define SPC_625U      <&key_physical_attrs 125 100    0  550       0     0     0> \
                     , <&key_physical_attrs 125 100  125  550       0     0     0> \
