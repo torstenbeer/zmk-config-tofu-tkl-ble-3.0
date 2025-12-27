@@ -14,10 +14,12 @@
 #endif
 
 #include <behaviors.dtsi>
+#include <locale/keys_de.h>                 // DE keys - Localized Keys for German
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+
 
 / {
     behaviors {
