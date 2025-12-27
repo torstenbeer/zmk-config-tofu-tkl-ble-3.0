@@ -16,12 +16,13 @@
 #   shield: test
 #    snippet: studio-rpc-usb-uart
 #    cmake-args: -DCONFIG_ZMK_STUDIO=y
+# tofu_tkl_iso_625u
+# - board: klink
+#    shield: tofu_tkl_iso_625u
+#    snippet: studio-rpc-usb-uart
+#    cmake-args: -DCONFIG_ZMK_STUDIO=y
 ---
 include:
-  - board: klink
-    shield: tofu_tkl_iso_625u
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: klink
     shield: tofu_tkl_iso_7u
     snippet: studio-rpc-usb-uart
