@@ -1,0 +1,12 @@
+description: "ZMK physical layout node binding"
+compatible:
+  - zmk,physical-layout
+
+properties:
+  transform:
+    type: phandle
+    description: "Matrix transform for the layout"
+
+  zmk,studio-supported:
+    type: boolean
+    description: "Enables ZMK Studio support for this layout"
