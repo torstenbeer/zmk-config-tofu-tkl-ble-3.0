@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
 
 #include "tofu_tkl_iso_7u-layouts.dtsi"
 #include "common.overlay"
@@ -34,10 +33,10 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5) RC(5,6) RC(5,7) RC(5,8) RC(5,9) 
         transform = <&matrix_transform_0>;
 
         keys =    ROWF0_FIXED
-                , ROW1_FIXED_ISO_BS_2U 
-                , ROW2_TAB_15U, ROW2_ENTER_ISO, ROW2_FIXED2
-                , ROW3_CAPS_175U, ROW3_FIXED, ROW3_ENTER_ISO
-                , ROW4_LSHIFT_225U, ROW4_FIXED, ROW4_RSHIFT_225U, ROW4_ARROW_UP
-                , SPC_7U , ROW5_FIXED;
+                , ROW1_FIXED
+                , ROW2_FIXED
+                , ROW3_FIXED
+                , ROW4_FIXED
+                , ROW5_FIXED;
     };
 };
