@@ -1,4 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "tofu_tkl_iso_7u-layouts.dtsi"
 
 #define _RC(x, y) 0
 #define N(x) (89-x)
