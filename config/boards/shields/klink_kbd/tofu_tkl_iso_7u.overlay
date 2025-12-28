@@ -9,7 +9,7 @@
 / {
     chosen {
         zmk,physical-layout = &layout_tkl_iso;
-        zmk,kscan = &kscan_keys;        // <-- passt jetzt zum Label
+        zmk,kscan = &kscan_keys;
         zmk,matrix-transform = &matrix_transform_0;
     };
 
