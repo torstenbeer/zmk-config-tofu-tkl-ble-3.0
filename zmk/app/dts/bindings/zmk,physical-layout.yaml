@@ -1,0 +1,7 @@
+properties:
+  transform:
+    required: true
+    type: phandle
+  zmk,studio-supported:
+    required: false
+    type: boolean
