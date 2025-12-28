@@ -1,5 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+
 #include "tofu_tkl_iso_7u-layouts.dtsi"
+#include "common.overlay"
 
 #define _RC(x, y) 0
 #define N(x) (89-x)
@@ -7,8 +9,42 @@
 / {
     chosen {
         zmk,physical-layout = &layout_tkl_iso;
-        zmk,kscan = &kscan0;
+        zmk,kscan = &kscan_keys;        // <-- passt jetzt zum Label
         zmk,matrix-transform = &matrix_transform_0;
+    };
+
+    kscan_keys: kscan_keys {
+        compatible = "zmk,kscan-gpio-matrix";
+        wakeup-source;
+        diode-direction = "col2row";
+
+        col-gpios = <
+            &shifter 0 GPIO_ACTIVE_LOW
+            &shifter 1 GPIO_ACTIVE_LOW
+            &shifter 2 GPIO_ACTIVE_LOW
+            &shifter 3 GPIO_ACTIVE_LOW
+            &shifter 4 GPIO_ACTIVE_LOW
+            &shifter 5 GPIO_ACTIVE_LOW
+            &shifter 6 GPIO_ACTIVE_LOW
+            &shifter 7 GPIO_ACTIVE_LOW
+            &shifter 8 GPIO_ACTIVE_LOW
+            &shifter 9 GPIO_ACTIVE_LOW
+            &shifter 10 GPIO_ACTIVE_LOW
+            &shifter 11 GPIO_ACTIVE_LOW
+            &shifter 12 GPIO_ACTIVE_LOW
+            &shifter 13 GPIO_ACTIVE_LOW
+            &shifter 14 GPIO_ACTIVE_LOW
+            &shifter 15 GPIO_ACTIVE_LOW
+        >;
+
+        row-gpios = <
+            &gpio0 30 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+            &gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)
+        >;
     };
 
     matrix_transform_0: matrix_transform_0 {
