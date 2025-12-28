@@ -13,6 +13,11 @@
         zmk,matrix-transform = &matrix_transform_0;
     };
 
+    layout_tkl_iso: layout_tkl_iso {
+        compatible = "zmk,physical-layout";
+        transform = <&matrix_transform_0>;
+    };
+
     kscan_keys: kscan_keys {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
