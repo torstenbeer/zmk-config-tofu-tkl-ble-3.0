@@ -1,6 +1,7 @@
 #include <layouts/common/tkl/position_map.dtsi>
 #include <physical_layouts.dtsi>
 
+// Physical layout
 / {
     layout_tkl_iso: layout_tkl_iso {
         compatible = "zmk,physical-layout";
